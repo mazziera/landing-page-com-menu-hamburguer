@@ -1,0 +1,34 @@
+.header .header-container{
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 40px;
+}
+
+.header-container nav > ul{
+    display: flex;
+    margin-right: 30px;   
+}
+
+.header nav ul > li{
+    margin-right: 30px;
+}
+
+.header nav ul a{
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.header nav a:hover{
+    background-color: coral;
+    color: white;
+}
+
+.header .menu{
+    display: none;
+    width: 60px;
+    height: 60px;
+}
